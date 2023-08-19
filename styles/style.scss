@@ -60,10 +60,12 @@ header {
 		position: relative;
 
 		.icon {
+			border: none;
 			position: absolute;
-			right: 10px;
+			right: 15px;
 			top: calc(50% + 5px);
 			transform: translateY(calc(-50% - 5px));
+			background: transparent;
 		}
 
 		&:hover .icon {

@@ -60,10 +60,12 @@ header h1 {
   position: relative;
 }
 .search_Bar .input_Container .icon {
+  border: none;
   position: absolute;
-  right: 10px;
+  right: 15px;
   top: calc(50% + 5px);
   transform: translateY(calc(-50% - 5px));
+  background: transparent;
 }
 .search_Bar .input_Container:hover .icon {
   animation: anim 1s linear infinite;

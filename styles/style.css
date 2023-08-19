@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "font-reg";
+  src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "font-bold";
+  src: url(../assets/fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+/*
+paramettres generaux
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background: #000101;
+  color: #fefeff;
+}
+
+*::selection {
+  background: #000101;
+  color: #fefeff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "font-reg", sans-serif;
+  background: #000101;
+  color: #fefeff;
+  transition: 0.7s ease-in-out;
+}
+
+/*
+paramettres par ordre
+*/
+/*
+animations
+*//*# sourceMappingURL=style.css.map */

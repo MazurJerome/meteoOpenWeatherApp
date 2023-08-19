@@ -20,10 +20,14 @@
 			/>
 			<h1>Météo</h1>
 		</header>
-		<section class="search_Bar">
+		<form class="search_Bar">
 			<div class="input_Container">
-				<input class="searchBarHome" placeholder="Recherche..." />
-				<span class="icon">
+				<input
+					id="inputCity"
+					class="searchBarHome"
+					placeholder="Recherche..."
+				/>
+				<button class="icon">
 					<svg
 						width="19px"
 						height="19px"
@@ -76,15 +80,17 @@
 							{" "}
 						</g>
 					</svg>
-				</span>
+				</button>
 			</div>
-		</section>
+		</form>
 		<section class="body_Infos">
 			<div class="infos">
 				<div class="top_Infos">
 					<div class="date">date</div>
-					<h2 class="position">Paris</h2>
-					<div class="icone_Map"></div>
+					<div class="position">
+						<h2 id="city">Paris</h2>
+						<img class="icone_Map" src="./assets/images/map.svg" alt="" />
+					</div>
 				</div>
 				<div class="mid_Infos">
 					<img
@@ -92,20 +98,21 @@
 						src="./assets/images/thermometer.svg"
 						alt=""
 					/>
-					<div class="temp">20 °C</div>
+					<div id="temp" class="temp">20 °C</div>
 					<img class="icone_Meteo" src="./assets/images/LOGO.svg" alt="" />
 				</div>
 				<div class="bottom_Infos">
 					<div class="humidity">
 						<div>humidité</div>
-						<div>25</div>
+						<div id="humidity">25</div>
 					</div>
 					<div class="wind">
 						<div>Vent</div>
-						<div>25</div>
+						<div id="wind">25</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		<script src="./js/script.js"></script>
 	</body>
 </html>

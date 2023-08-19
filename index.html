@@ -7,10 +7,105 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Portfolio de Jerome MAZUR</title>
+		<title>Projet Météo</title>
 
-		<link rel="stylesheet" href="./assets/lib/locomotive-scroll.min.css" />
 		<link rel="stylesheet" href="./styles/style.css" />
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<img
+				class="logo_Head"
+				src="./assets/images/LOGO.svg"
+				alt="logo du site"
+			/>
+			<h1>Météo</h1>
+		</header>
+		<section class="search_Bar">
+			<div class="input_Container">
+				<input class="searchBarHome" placeholder="Recherche..." />
+				<span class="icon">
+					<svg
+						width="19px"
+						height="19px"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+						<g
+							id="SVGRepo_tracerCarrier"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+						></g>
+						<g id="SVGRepo_iconCarrier">
+							{" "}
+							<path
+								opacity="1"
+								d="M14 5H20"
+								stroke="#000"
+								strokeWidth="1.5"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+							></path>
+							{" "}
+							<path
+								opacity="1"
+								d="M14 8H17"
+								stroke="#000"
+								strokeWidth="1.5"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+							></path>
+							{" "}
+							<path
+								d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2"
+								stroke="#000"
+								strokeWidth="2.5"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+							></path>
+							{" "}
+							<path
+								opacity="1"
+								d="M22 22L20 20"
+								stroke="#000"
+								strokeWidth="3.5"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+							></path>
+							{" "}
+						</g>
+					</svg>
+				</span>
+			</div>
+		</section>
+		<section class="body_Infos">
+			<div class="infos">
+				<div class="top_Infos">
+					<div class="date">date</div>
+					<h2 class="position">Paris</h2>
+					<div class="icone_Map"></div>
+				</div>
+				<div class="mid_Infos">
+					<img
+						class="icone_Temp"
+						src="./assets/images/thermometer.svg"
+						alt=""
+					/>
+					<div class="temp">20 °C</div>
+					<img class="icone_Meteo" src="./assets/images/LOGO.svg" alt="" />
+				</div>
+				<div class="bottom_Infos">
+					<div class="humidity">
+						<div>humidité</div>
+						<div>25</div>
+					</div>
+					<div class="wind">
+						<div>Vent</div>
+						<div>25</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>

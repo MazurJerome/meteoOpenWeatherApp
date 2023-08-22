@@ -4,7 +4,7 @@ let iconApiRes = "10d";
 let call_Icone = `https://openweathermap.org/img/wn/${iconApiRes}@3x.png`;
 
 let api_LatLon = function (city, apiKey) {
-	let apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=2&appid=${apiKey}`;
+	let apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=2&appid=${apiKey}`;
 
 	fetch(apiUrl)
 		.then((response) =>
